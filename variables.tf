@@ -18,3 +18,7 @@ variable "instance_type" {
 variable "vpc_cidr" {
   description = "VPC cidr block"
 }
+
+variable "public_subnet_cidr" {
+  description = "Public Subnet 1 cidr block"
+}
